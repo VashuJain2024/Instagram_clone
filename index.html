@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an Instagram clone.">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="insta-logo.png" type="image/x-icon">
+    <!-- <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon" sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://kit.fontawesome.com/339c1dcb99.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,4 00;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="container">
+            <img src="images/insta-written.png" alt="" class="logo">
+            <img src="images/insta-logo.png" alt="" class="logo2">
+            <div class="link">
+                <img src="images/home.png" alt="">
+                <a href="">Home</a>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="">Search</a>
+            </div>
+            <div class="link">
+                <img src="images/explore.png" alt="">
+                <a href="">Explore</a>
+            </div>
+            <div class="link">
+                <img src="images/reels.png" alt="">
+                <a href="">Reels</a>
+            </div>
+            <div class="link">
+                <img src="images/messenger.png" alt="">
+                <a href="">Messages</a>
+            </div>
+            <div class="link">
+                <i class="fa-regular fa-heart"></i>
+                <a href="">Notifications</a>
+            </div>
+            <div class="link">
+                <img src="images/create.png" alt="">
+                <a href="">Create</a>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-user"></i>
+                <a href="">Profile</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="link">
+                <i class="fa-brands fa-threads"></i>
+                <a href="">Threads</a>
+            </div>
+            <div class="link">
+                <i class="fa-solid fa-bars"></i>
+                <a href="">More</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-navbar">
+        <div class="link">
+            <img src="images/home.png" alt="">
+        </div>
+        <div class="link">
+            <img src="images/explore.png" alt="">
+        </div>
+        <div class="link">
+            <img src="images/reels.png" alt="">
+        </div>
+        <div class="link">
+            <img src="images/create.png" alt="">
+        </div>
+        <div class="link">
+            <img src="images/messenger.png" alt="">
+        </div>
+        <div class="link">
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="story-post-container">
+            <div class="stories-container">
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/PQbw_A6__1WIlLYKBmlpg8YSTD7bKuxROPtgh1f7FyU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1USXdNelZq/TXpJdE1USTBNQzAw/WW1FNExUZ3dOV1l0/TTJOalkySTBNMlpt/WkRFMlhrRXlYa0Zx/Y0dkZVFYVnlPVGcx/TVRFNU9ERUAuanBn"
+                            alt="Profile Picture">
+                    </div>
+                    <p>__jainbhavya__</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/aQe5q2l7N-dMaFfSng0OLmf9aztjY0QuJ-MmijNEyas/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzhmL2I1/LzUxLzhmYjU1MTNh/MWRlOTY5NDQwNDk4/ZDU5MmU0N2ZkNGFm/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>tanisha_jain3020</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/yAaU_nNVSHLgsU6BKvaAlRihrlku8eBz3OERkoz_PcU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZmL2Yw/LzVhLzZmZjA1YTk1/YzBlZTM0MTJkNDM3/Mjk5ZTMxM2RiZjcy/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>parasjainparas310</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/ngtuHdpMlyk7CMlDC3VfKUM5AQQIr_yn7iuKLbJJcUM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg3LzUz/LzYwLzg3NTM2MDY1/YTdiYWUyNjBmZjg1/NWZmNzczZGUyZGYw/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>sayyam_jain0305</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/Zu-GuHcNyh-e68-w7IfH8u8_Kj0-SlbfdWg18amoAPE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VjLzZm/LzQ2L2VjNmY0Njgx/OTA5NWM1NjE5OTY5/YzIxZjFjMTRjNDI1/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>vidhijain1912</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/U4qsbsj3iKdJ5SdVWOdu_NcQUORCGgss_xyjMlNFY4A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE1L2Yw/L2FmLzE1ZjBhZjFj/ZGUwM2EwZmI5YWQz/MjNhY2QxZGExZGM5/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>bhavya_bj001</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/aCJFvO83qkHEoGZyFnG2XprkZzoxlHDF_eKTZtwnTRA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZlLzM5/L2FkLzZlMzlhZGFk/NTYzMGZkMWY3MWQw/YWU4NmJhMWE2MzUx/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>jainshaurya4</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/qBrf5pkVrjXMSNolUtpETkQNUM_oORpLKjOScDLRhV4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly8xODQ3/ODg0MTE2LnJzYy5j/ZG43Ny5vcmcvdGFt/aWwvZ2FsbGVyeS9h/Y3RyZXNzL2FuamFs/aXRyaXZlZGkxMzEw/MTQvcG9zdGVyLmpw/Zw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>dreamy_charu89</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/QAfyXqKdJJ2C-SsDq3pBAsxUIEXCrueCNYezzTow51k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXNhdGxpZmUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzAyL011bWJhaS1B/Y3RyZXNzLUtyaXRp/LVNhbm9uLmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>ben10isha_ts</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/RLjFrwr2psSCwCg8x3V1-wMQEtbs4n1DQH1AV511CqU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXNhdGxpZmUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzAzL0Jlc3QtQm9s/bHl3b29kLUFjdG9y/LUhyaXRoaWstUm9z/aGFuLmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>i__shourya_09</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/MqanS54E6hdqxtlMOzNlZ6MZfgYbva6ce7Hjc7A1c-k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2MwL2Q4/L2JmL2MwZDhiZjQ1/ZDg4Y2UzMmVmYWYw/ZDdhMmM0NGYyZWJl/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>its.me__pritam</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://imgs.search.brave.com/uC2ixLMJJFkoKRYfEDhEkhmDY4aHB5vnRjXLONj7yck/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZlLzM3/LzM2LzZlMzczNjI4/NzBlMGI2ZjE3YzFm/MGRlOTMzZWQ5MGU3/LmpwZw"
+                            alt="Profile Picture">
+                    </div>
+                    <p>atishay150</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://scontent.cdninstagram.com/v/t51.2885-19/358788378_714852313986899_2899083580044031688_n.jpg?stp=dst-jpg_s80x80&_nc_cat=110&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=5O8g1vS1tCgAX8KA2wA&_nc_ht=scontent.cdninstagram.com&oh=00_AfD-OH4w3BQK4ir_V8PbaxKaJEh-NxG2OScYgCdeXr64oQ&oe=65DB329D"
+                            alt="Profile Picture">
+                    </div>
+                    <p>avantika_3020</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://scontent.fdel1-3.fna.fbcdn.net/v/t1.30497-1/115870214_694925034696967_1870022665148339563_n.jpg?stp=cp0_dst-jpg_p80x80&_nc_cat=1&ccb=1-7&_nc_sid=810bd0&_nc_ohc=FtpBMGULYlkAX8Qr5Go&_nc_ht=scontent.fdel1-3.fna&oh=00_AfCKcmbO08_4Oghux5InKcNBUI4ERPCJsJc-OieLwMRFGg&oe=65FDA562"
+                            alt="Profile Picture">
+                    </div>
+                    <p>mohd__yusuf18</p>
+                </div>
+                <div class="story">
+                    <div class="gradient-border">
+                        <img src="https://scontent.cdninstagram.com/v/t51.2885-19/387745233_1440762860103795_1545867480326198072_n.jpg?stp=dst-jpg_s80x80&_nc_cat=103&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=06SOLK6Cg0YAX-BQAzu&_nc_ht=scontent.cdninstagram.com&oh=00_AfBf-nfvZC8dVddfO-jLQura4b4pX_7547c3AGz02zS8eg&oe=65DB5C6C"
+                            alt="Profile Picture">
+                    </div>
+                    <p>chhayajain721</p>
+                </div>
+            </div>
+            <div class="posts-components">
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/zlua3nLTYFy28dytMU_RbzFM2R6wpS30Vhu62rYSI40/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3Lm9w/aW5kaWEuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzAy/L2Fhai10YWsuanBn/P3Jlc2l6ZT02NDcs/NDA0JnNzbD0x"
+                                alt="Profile Picture">
+                            <p class="post-icon">aajtak</p>
+                            <ul>
+                                <li class="list-time">8 h</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/wvJ4rUXWn5EhFrTMUzYL_7m7aCduHFUB10jV_I53qaQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9ha20t/aW1nLWEtaW4udG9z/c2h1Yi5jb20vYnVz/aW5lc3N0b2RheS9p/bWFnZXMvc3Rvcnkv/MjAxOTAyL2FhanRh/azg5XzY2MF8wMjAx/MTkxMTI2MjYuanBn/P3NpemU9OTQ4OjUz/Mw"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">525 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/tbIbEd7NhIiOhUAuCiloqZybw6l82qBcRheOxIqNETU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM5/NTY0ODAwNi9waG90/by9pbmRpYW4tbmF0/aW9uYWwtZmxhZy1i/YWRnZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9X0VqUWxN/RmwzUDRNRXdDaDFr/SWFySVU1UThCNGZF/YXhTVGd0MFM0eDVf/MD0"
+                                alt="Profile Picture">
+                            <p class="post-icon">hindustantimes</p>
+                            <ul>
+                                <li class="list-time">3 m</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/_8-LOY2OD1mVyMJR-vdo-Syi1s-I0VYaJlG3qqHuA48/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/MS8xNi9IaW5kdXN0/YW5fVGltZXNfY292/ZXJfMDMtMjgtMTAu/anBnLzIyNXB4LUhp/bmR1c3Rhbl9UaW1l/c19jb3Zlcl8wMy0y/OC0xMC5qcGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">124 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/KZK1TgkV5l9a7uEBJiGdOBC9zPAzIvdPX-1kD2YfUTk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS83Lzc5/L1dNUXN5bS5qcGc"
+                                alt="Profile Picture">
+                            <p class="post-icon">__jainbhavya__</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/g8MZjVUcduhboaN8BG5sIL_fygsglSCoWBV95_UFIkU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE5ODUy/NTkuanBn"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/Fu9BXgFXJi-QOqmCCvdXrSy8OPeM-GlV7XbyeAlg6yM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vZ29kb2Zp/bmRpYS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMDUv/aHJpdGhpay1yb3No/YW4uanBnP3Jlc2l6/ZT0xMDI0LDY0MA"
+                                alt="Profile Picture">
+                            <p class="post-icon">__jainbhavya__</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/gvNMZiTAaGg077SDD9opiUX81HBqyp1PzjX9u0-cYuU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzU0My80ODcv/NzExL2hyaXRoaWst/cm9zaGFuLTIwMTQt/cGhvdG9zaG9vdC13/YWxscGFwZXItcHJl/dmlldy5qcGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/tlfDRUFn35JpGX55L0bVRwC4x8U9QVq0s4qivtDG8c8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW51dGguY29t/LzIwMTcvMTAvMTBB/aXNod2FyeWEtUmFp/LWlzLW5hdHVyYWxs/eS1iZWF1dGlmdWwu/anBn"
+                                alt="Profile Picture">
+                            <p class="post-icon">__Aishawarya Rai_</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/klcXLfdivEMQeojPRDf83gsSYNpkaiB4_PzfDEcpeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M1L2Yz/LzliL2M1ZjM5YjE3/YTc1YzEwYmI0YTdj/MmY4OTE5M2Q2NjIx/LmpwZw"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/_9VqGeeiQG7n2hQdcuADKIspP3avipcaP6kDrPXFTtU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmlyc3Rwb3N0/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wOC9OQzY0/MC5qcGc_aW09Rml0/QW5kRmlsbD0oNTk2/LDMzNik"
+                                alt="Profile Picture">
+                            <p class="post-icon">_Neeraj Chopra</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/ZovHTbvpxA-NcS7YsH8CS9YgVgnJ5sm9Ks1jOfT_Ixc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubGl2ZW1pbnQu/Y29tL2ltZy8yMDIx/LzA4LzA3LzYwMHgz/MzgvYjIyMzNiZGMt/Zjc5Yi0xMWViLWE5/ZTYtNzVmM2YzZWI5/MTFkXzE2MjgzNTQy/Nzg1MzZfMTYyODM1/NDI4NjYyNS5qcGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/xbClOE4ZOG-6tACG-woz1N7zEZbNvnfivA7cUlQY5sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4y/LnN0eWxlY3JhemUu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIxLzA0L0N1dGUt/UGljay1VcC1MaW5l/cy1Gb3ItR2lybHMt/MS5qcGc"
+                                alt="Profile Picture">
+                            <p class="post-icon">flirting_lines</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/5VFaXciBEV1d4hlD4NHq6NL9x4vW4da2KvweeNq-R3o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sdWNr/bW9uZXlteXRoLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wNC9iZXN0LXBp/Y2t1cC1saW5lLWZv/ci1mbGlydGluZy5q/cGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/X1RLEJJbeSLSsH24UNo4q3znbmWHu2WMaGmlUzbcKWI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzU5LzM2LzY3/LzM2MF9GXzQ1OTM2/Njc1NF9kUmlmNTF1/TXdRR2MzUjRpT283/blI0djFScVNZMEFr/bi5qcGc"
+                                alt="Profile Picture">
+                            <p class="post-icon">nutrisystem_</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/ByIkpA7if-BbT9a1UTKo20yTLfamIAr3BTK5g1xmV4w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzgyLzQwLzQz/LzM2MF9GXzE4MjQw/NDMyN19JRkZMUExT/c3RJY2NTRDFReTJr/Y2NaU1dOSXN3cko5/ei5qcGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-info-flex">
+                            <img src="https://imgs.search.brave.com/e3xonzhZGldf9LNuBoK2QwFYl10IrAqNxEDDhXqutpY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzAzLzI4LzU0/LzM2MF9GXzMyODU0/MzdfUVVXb3lkbnhj/UURXb3lkdjViR1pz/MUJ6blJrdWlyLmpw/Zw"
+                                alt="Profile Picture">
+                            <p class="post-icon">__jainbhavya__</p>
+                            <ul>
+                                <li class="list-time">8 hrs</li>
+                            </ul>
+                        </div>
+                        <i class="fa-solid fa-ellipsis post-icon"></i>
+                    </div>
+                    <img src="https://imgs.search.brave.com/setKH0reQ6MwQTKI8Qx9jIkBV0p7XUzrLrshP5Y4_wc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZi5s/dGtjZG4ubmV0L2Zh/bWlseS9pbWFnZXMv/c3RkLXhzLzIwMDgy/MS0zNDB4MjI3LWZh/bWlseS5qcGc"
+                        alt="" class="post-image">
+                    <div class="post-icons">
+                        <div class="post-icons-left">
+                            <i data-feather="heart" class="post-icon"></i>
+                            <i data-feather="message-circle" class="post-icon"></i>
+                            <i data-feather="send" class="post-icon"></i>
+                        </div>
+                        <i data-feather="bookmark" class="post-icon"></i>
+                    </div>
+                    <p class="likes">100 likes</p>
+                    <p class="caption">@Username Caption goes here...</p>
+                    <a href="" class="comments">View all comments</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-sugg">
+            <div class="profile-flex">
+                <div class="profile">
+                    <img src="https://imgs.search.brave.com/H_xXz-b9Ls7y_JFiF4prUwt_idxroCfH3wkbjVBJPd4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzAzL0phaW5fdGVt/cGxlc19vbl9HaXJu/YXJfbW91bnRhaW5f/YWVyaWFsX3ZpZXcu/anBn"
+                        alt="Profile Picture">
+                    <div class="profile-info">
+                        <strong>vashu_jain9897</strong>
+                        <span class="profile-info-name">Vashu Jain</span>
+                    </div>
+                </div>
+                <div class="switch">Switch</div>
+            </div>
+            <div class="profile-div">
+                <p style="font-size: 1rem; color: var(--light-grey); margin: 0.5rem;">Suggestions for you</p>
+                <div class="profile-flex">
+                    <div class="profile">
+                        <img src="https://imgs.search.brave.com/UhAGpzlvKCMDMdZXJf-cL2_mPOiNRyXNzwsy0CH1cBQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zMy11/cy13ZXN0LTIuYW1h/em9uYXdzLmNvbS9p/bWFnZXMuc2VhdHRs/ZWFzdHJvLm9yZy9h/cHAvYXdhcmQvaW1h/Z2VzLzI5L3NtYWxs/L2dhbGlsZW9fY2x1/Yi5qcGc_MTY0MTg1/NTA5Mw"
+                            alt="Profile Picture">
+                        <div class="profile-info">
+                            <strong>astronomyclub_rhs</strong>
+                            <span class="profile-info-name">Suggested for you</span>
+                        </div>
+                    </div>
+                    <div class="switch">Follow</div>
+                </div>
+                <div class="profile-flex">
+                    <div class="profile">
+                        <img src="https://imgs.search.brave.com/XNEeNmr-wdVQmUJj76aRJH7Hw0eMOVbOIyJNT-tJSaw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMyODE3/NjAuanBn"
+                            alt="Profile Picture">
+                        <div class="profile-info">
+                            <strong>me_neelakshi</strong>
+                            <span class="profile-info-name">Suggested for you</span>
+                        </div>
+                    </div>
+                    <div class="switch">Follow</div>
+                </div>
+                <div class="profile-flex">
+                    <div class="profile">
+                        <img src="https://imgs.search.brave.com/_id1YneqRd__dLWXf4tXEergcO7MzR-nG4OHwa7GglQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm94dHYuY29t/L2ltYWdlcy5mb3h0/di5jb20vc3RhdGlj/LmZveDEwcGhvZW5p/eC5jb20vd3d3LmZv/eDEwcGhvZW5peC5j/b20vY29udGVudC91/cGxvYWRzLzIwMjMv/MTIvMzIvMTgvNTky/LzMzMy9zbmFwc2hv/dC05LmpwZz92ZT0x/JnRsPTEmdmU9MSZ0/bD0x"
+                            alt="Profile Picture">
+                        <div class="profile-info">
+                            <strong>phoenix_.shots</strong>
+                            <span class="profile-info-name">Followed by nityam_7 + 6 more</span>
+                        </div>
+                    </div>
+                    <div class="switch">Follow</div>
+                </div>
+                <div class="profile-flex">
+                    <div class="profile">
+                        <img src="https://imgs.search.brave.com/hMpP-5B7ayEMYwAni15iES1snneCVIW8jfPAmR_Ukz8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80OS84/Mi8yd3RqekIuanBn"
+                            alt="Profile Picture">
+                        <div class="profile-info">
+                            <strong>unique._.jatti2</strong>
+                            <span class="profile-info-name">Followed by paras_pvt09 + 4 more</span>
+                        </div>
+                    </div>
+                    <div class="switch">Follow</div>
+                </div>
+                <div class="profile-flex">
+                    <div class="profile">
+                        <img src="https://imgs.search.brave.com/-jeZxTH0monCacV2FxbGczpLHW5dxiuiv2RAZBT7K-A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM2/NDM1ODMyMS9waG90/by9kZXZlbG9waW5n/LXByb2dyYW1taW5n/LWFuZC1jb2Rpbmct/dGVjaG5vbG9naWVz/LXdpdGgtd2Vic2l0/ZS1kZXNpZ24taW4t/dmlydHVhbC1kaWFn/cmFtLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz14RmZ4LUhV/YmtNaXducGpiWkZP/SmNFOXFXMmE3WlpS/dHlLOHJOLVlveXVN/PQ"
+                            alt="Profile Picture">
+                        <div class="profile-info">
+                            <strong>developer_rahul_</strong>
+                            <span class="profile-info-name">Suggested for you</span>
+                        </div>
+                    </div>
+                    <div class="switch">Follow</div>
+                </div>
+            </div>
+            <ul class="profile-list">
+                <li>About</li>
+                <li>Help</li>
+                <li>Press</li>
+                <li>API</li>
+                <li>Jobs</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Locations</li>
+                <li>Language</li>
+                <li>English</li>
+                <li>Meta Verified</li>
+            </ul>
+            <p style="margin-left: 30px; font-size: 0.6rem; color: var(--light-grey)">
+                © 2024 INSTAGRAM FROM META
+            </p>
+        </div>
+    </div>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
